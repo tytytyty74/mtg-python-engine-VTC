@@ -122,7 +122,7 @@ class c205350(card.Card):
 class c205408(card.Card):
     "Search for Tomorrow"
     def __init__(self):
-        super(c205408, self).__init__(gameobject.Characteristics(**{'name': 'Search for Tomorrow', 'text': 'Search your library for a basic land card and put it onto the battlefield. Then shuffle your library.\nSuspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)', 'color': ['G'], 'mana_cost': '2G'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[]))
+        super(c205408, self).__init__(gameobject.Characteristics(**{'name': 'Search for Tomorrow', 'text': 'Search your library for a basic land card and put it onto the battlefield. Then shuffle your library.\nSuspend 2-{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)', 'color': ['G'], 'mana_cost': '2G'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[]))
 
 class c205361(card.Card):
     "Lightning Helix"
@@ -172,7 +172,7 @@ class c382897(card.Card):
 class c382912(card.Card):
     "Deep Analysis"
     def __init__(self):
-        super(c382912, self).__init__(gameobject.Characteristics(**{'name': 'Deep Analysis', 'text': 'Target player draws two cards.\nFlashback—{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)', 'color': ['U'], 'mana_cost': '3U'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[static_abilities.StaticAbilities.Flash]))
+        super(c382912, self).__init__(gameobject.Characteristics(**{'name': 'Deep Analysis', 'text': 'Target player draws two cards.\nFlashback-{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)', 'color': ['U'], 'mana_cost': '3U'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[static_abilities.StaticAbilities.Flash]))
 
 class c382930(card.Card):
     "Fact or Fiction"
@@ -227,7 +227,7 @@ class c383056(card.Card):
 class c383087(card.Card):
     "Selvala, Explorer Returned"
     def __init__(self):
-        super(c383087, self).__init__(gameobject.Characteristics(**{'name': 'Selvala, Explorer Returned', 'text': 'Parley — {T}: Each player reveals the top card of his or her library. For each nonland card revealed this way, add {G} to your mana pool and you gain 1 life. Then each player draws a card.', 'color': ['W', 'G'], 'mana_cost': '1GW', 'power': 2, 'toughness': 4, 'subtype': ['Elf', 'Scout']}, supertype=[cardtype.SuperType.LEGENDARY], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c383087, self).__init__(gameobject.Characteristics(**{'name': 'Selvala, Explorer Returned', 'text': 'Parley - {T}: Each player reveals the top card of his or her library. For each nonland card revealed this way, add {G} to your mana pool and you gain 1 life. Then each player draws a card.', 'color': ['W', 'G'], 'mana_cost': '1GW', 'power': 2, 'toughness': 4, 'subtype': ['Elf', 'Scout']}, supertype=[cardtype.SuperType.LEGENDARY], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c383097(card.Card):
     "Skullclamp"
@@ -252,7 +252,7 @@ class c370493(card.Card):
 class c370439(card.Card):
     "Cryptic Command"
     def __init__(self):
-        super(c370439, self).__init__(gameobject.Characteristics(**{'name': 'Cryptic Command', 'text': "Choose two —\n• Counter target spell.\n• Return target permanent to its owner's hand.\n• Tap all creatures your opponents control.\n• Draw a card.", 'color': ['U'], 'mana_cost': '1UUU'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c370439, self).__init__(gameobject.Characteristics(**{'name': 'Cryptic Command', 'text': "Choose two -\n* Counter target spell.\n* Return target permanent to its owner's hand.\n* Tap all creatures your opponents control.\n* Draw a card.", 'color': ['U'], 'mana_cost': '1UUU'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c370378(card.Card):
     "Etherium Sculptor"
@@ -287,7 +287,7 @@ class c370390(card.Card):
 class c370560(card.Card):
     "Greater Gargadon"
     def __init__(self):
-        super(c370560, self).__init__(gameobject.Characteristics(**{'name': 'Greater Gargadon', 'text': 'Suspend 10—{R}\nSacrifice an artifact, creature, or land: Remove a time counter from Greater Gargadon. Activate this ability only if Greater Gargadon is suspended.', 'color': ['R'], 'mana_cost': '9R', 'power': 9, 'toughness': 7, 'subtype': ['Beast']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c370560, self).__init__(gameobject.Characteristics(**{'name': 'Greater Gargadon', 'text': 'Suspend 10-{R}\nSacrifice an artifact, creature, or land: Remove a time counter from Greater Gargadon. Activate this ability only if Greater Gargadon is suspended.', 'color': ['R'], 'mana_cost': '9R', 'power': 9, 'toughness': 7, 'subtype': ['Beast']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c370534(card.Card):
     "Kiki-Jiki, Mirror Breaker"
@@ -317,7 +317,7 @@ class c370379(card.Card):
 class c370566(card.Card):
     "Sarkhan Vol"
     def __init__(self):
-        super(c370566, self).__init__(gameobject.Characteristics(**{'name': 'Sarkhan Vol', 'text': '+1: Creatures you control get +1/+1 and gain haste until end of turn.\n−2: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\n−6: Create five 4/4 red Dragon creature tokens with flying.', 'color': ['R', 'G'], 'mana_cost': '2RG', 'subtype': ['Sarkhan']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c370566, self).__init__(gameobject.Characteristics(**{'name': 'Sarkhan Vol', 'text': '+1: Creatures you control get +1/+1 and gain haste until end of turn.\n-2: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.\n-6: Create five 4/4 red Dragon creature tokens with flying.', 'color': ['R', 'G'], 'mana_cost': '2RG', 'subtype': ['Sarkhan']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c370518(card.Card):
     "Murderous Redcap"
@@ -457,7 +457,7 @@ class c425983(card.Card):
 class c425986(card.Card):
     "Domri Rade"
     def __init__(self):
-        super(c425986, self).__init__(gameobject.Characteristics(**{'name': 'Domri Rade', 'text': '+1: Look at the top card of your library. If it\'s a creature card, you may reveal it and put it into your hand.\n−2: Target creature you control fights another target creature.\n−7: You get an emblem with "Creatures you control have double strike, trample, hexproof, and haste."', 'color': ['R', 'G'], 'mana_cost': '1RG', 'subtype': ['Domri']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[static_abilities.StaticAbilities.Hexproof, static_abilities.StaticAbilities.Trample]))
+        super(c425986, self).__init__(gameobject.Characteristics(**{'name': 'Domri Rade', 'text': '+1: Look at the top card of your library. If it\'s a creature card, you may reveal it and put it into your hand.\n-2: Target creature you control fights another target creature.\n-7: You get an emblem with "Creatures you control have double strike, trample, hexproof, and haste."', 'color': ['R', 'G'], 'mana_cost': '1RG', 'subtype': ['Domri']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[static_abilities.StaticAbilities.Hexproof, static_abilities.StaticAbilities.Trample]))
 
 class c425988(card.Card):
     "Falkenrath Aristocrat"
@@ -467,12 +467,12 @@ class c425988(card.Card):
 class c425990(card.Card):
     "Ghor-Clan Rampager"
     def __init__(self):
-        super(c425990, self).__init__(gameobject.Characteristics(**{'name': 'Ghor-Clan Rampager', 'text': 'Trample\nBloodrush — {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets +4/+4 and gains trample until end of turn.', 'color': ['R', 'G'], 'mana_cost': '2RG', 'power': 4, 'toughness': 4, 'subtype': ['Beast']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Trample]))
+        super(c425990, self).__init__(gameobject.Characteristics(**{'name': 'Ghor-Clan Rampager', 'text': 'Trample\nBloodrush - {R}{G}, Discard Ghor-Clan Rampager: Target attacking creature gets +4/+4 and gains trample until end of turn.', 'color': ['R', 'G'], 'mana_cost': '2RG', 'power': 4, 'toughness': 4, 'subtype': ['Beast']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Trample]))
 
 class c425996(card.Card):
     "Izzet Charm"
     def __init__(self):
-        super(c425996, self).__init__(gameobject.Characteristics(**{'name': 'Izzet Charm', 'text': 'Choose one —\n• Counter target noncreature spell unless its controller pays {2}.\n• Izzet Charm deals 2 damage to target creature.\n• Draw two cards, then discard two cards.', 'color': ['U', 'R'], 'mana_cost': 'UR'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c425996, self).__init__(gameobject.Characteristics(**{'name': 'Izzet Charm', 'text': 'Choose one -\n* Counter target noncreature spell unless its controller pays {2}.\n* Izzet Charm deals 2 damage to target creature.\n* Draw two cards, then discard two cards.', 'color': ['U', 'R'], 'mana_cost': 'UR'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c426004(card.Card):
     "Putrefy"
@@ -627,7 +627,7 @@ class c397751(card.Card):
 class c397710(card.Card):
     "Etched Champion"
     def __init__(self):
-        super(c397710, self).__init__(gameobject.Characteristics(**{'name': 'Etched Champion', 'text': 'Metalcraft — Etched Champion has protection from all colors as long as you control three or more artifacts.', 'color': '', 'mana_cost': '3', 'power': 2, 'toughness': 2, 'subtype': ['Soldier']}, supertype=[], types=[cardtype.CardType.ARTIFACT, cardtype.CardType.CREATURE], abilities=[]))
+        super(c397710, self).__init__(gameobject.Characteristics(**{'name': 'Etched Champion', 'text': 'Metalcraft - Etched Champion has protection from all colors as long as you control three or more artifacts.', 'color': '', 'mana_cost': '3', 'power': 2, 'toughness': 2, 'subtype': ['Soldier']}, supertype=[], types=[cardtype.CardType.ARTIFACT, cardtype.CardType.CREATURE], abilities=[]))
 
 class c397679(card.Card):
     "Everflowing Chalice"
@@ -767,7 +767,7 @@ class c413755(card.Card):
 class c413765(card.Card):
     "Isochron Scepter"
     def __init__(self):
-        super(c413765, self).__init__(gameobject.Characteristics(**{'name': 'Isochron Scepter', 'text': 'Imprint — When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.\n{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.', 'color': '', 'mana_cost': '2'}, supertype=[], types=[cardtype.CardType.ARTIFACT], abilities=[]))
+        super(c413765, self).__init__(gameobject.Characteristics(**{'name': 'Isochron Scepter', 'text': 'Imprint - When Isochron Scepter enters the battlefield, you may exile an instant card with converted mana cost 2 or less from your hand.\n{2}, {T}: You may copy the exiled card. If you do, you may cast the copy without paying its mana cost.', 'color': '', 'mana_cost': '2'}, supertype=[], types=[cardtype.CardType.ARTIFACT], abilities=[]))
 
 class c413771(card.Card):
     "Pilgrim's Eye"
@@ -787,7 +787,7 @@ class c430667(card.Card):
 class c430668(card.Card):
     "Forbid"
     def __init__(self):
-        super(c430668, self).__init__(gameobject.Characteristics(**{'name': 'Forbid', 'text': 'Buyback—Discard two cards. (You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.)\nCounter target spell.', 'color': ['U'], 'mana_cost': '1UU'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c430668, self).__init__(gameobject.Characteristics(**{'name': 'Forbid', 'text': 'Buyback-Discard two cards. (You may discard two cards in addition to any other costs as you cast this spell. If you do, put this card into your hand as it resolves.)\nCounter target spell.', 'color': ['U'], 'mana_cost': '1UU'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c430670(card.Card):
     "Opposition"
@@ -897,7 +897,7 @@ class c409573(card.Card):
 class c416756(card.Card):
     "Umezawa's Jitte"
     def __init__(self):
-        super(c416756, self).__init__(gameobject.Characteristics(**{'name': "Umezawa's Jitte", 'text': "Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.\nRemove a charge counter from Umezawa's Jitte: Choose one —\n• Equipped creature gets +2/+2 until end of turn.\n• Target creature gets -1/-1 until end of turn.\n• You gain 2 life.\nEquip {2}", 'color': '', 'mana_cost': '2', 'subtype': ['Equipment']}, supertype=[cardtype.SuperType.LEGENDARY], types=[cardtype.CardType.ARTIFACT], abilities=[]))
+        super(c416756, self).__init__(gameobject.Characteristics(**{'name': "Umezawa's Jitte", 'text': "Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte.\nRemove a charge counter from Umezawa's Jitte: Choose one -\n* Equipped creature gets +2/+2 until end of turn.\n* Target creature gets -1/-1 until end of turn.\n* You gain 2 life.\nEquip {2}", 'color': '', 'mana_cost': '2', 'subtype': ['Equipment']}, supertype=[cardtype.SuperType.LEGENDARY], types=[cardtype.CardType.ARTIFACT], abilities=[]))
 
 class c386286(card.Card):
     "Cataclysm"
@@ -962,7 +962,7 @@ class c409630(card.Card):
 class c401643(card.Card):
     "Avenger of Zendikar"
     def __init__(self):
-        super(c401643, self).__init__(gameobject.Characteristics(**{'name': 'Avenger of Zendikar', 'text': 'When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.\nLandfall — Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.', 'color': ['G'], 'mana_cost': '5GG', 'power': 5, 'toughness': 5, 'subtype': ['Elemental']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c401643, self).__init__(gameobject.Characteristics(**{'name': 'Avenger of Zendikar', 'text': 'When Avenger of Zendikar enters the battlefield, create a 0/1 green Plant creature token for each land you control.\nLandfall - Whenever a land enters the battlefield under your control, you may put a +1/+1 counter on each Plant creature you control.', 'color': ['G'], 'mana_cost': '5GG', 'power': 5, 'toughness': 5, 'subtype': ['Elemental']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c401658(card.Card):
     "Harrow"
@@ -982,7 +982,7 @@ class c401707(card.Card):
 class c394361(card.Card):
     "Elspeth, Sun's Champion"
     def __init__(self):
-        super(c394361, self).__init__(gameobject.Characteristics(**{'name': "Elspeth, Sun's Champion", 'text': '+1: Create three 1/1 white Soldier creature tokens.\n−3: Destroy all creatures with power 4 or greater.\n−7: You get an emblem with "Creatures you control get +2/+2 and have flying."', 'color': ['W'], 'mana_cost': '4WW', 'subtype': ['Elspeth']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c394361, self).__init__(gameobject.Characteristics(**{'name': "Elspeth, Sun's Champion", 'text': '+1: Create three 1/1 white Soldier creature tokens.\n-3: Destroy all creatures with power 4 or greater.\n-7: You get an emblem with "Creatures you control get +2/+2 and have flying."', 'color': ['W'], 'mana_cost': '4WW', 'subtype': ['Elspeth']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c394360(card.Card):
     "Dictate of Heliod"
@@ -1032,17 +1032,17 @@ class c265979(card.Card):
 class c266210(card.Card):
     "Plated Geopede"
     def __init__(self):
-        super(c266210, self).__init__(gameobject.Characteristics(**{'name': 'Plated Geopede', 'text': 'First strike\nLandfall — Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.', 'color': ['R'], 'mana_cost': '1R', 'power': 1, 'toughness': 1, 'subtype': ['Insect']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c266210, self).__init__(gameobject.Characteristics(**{'name': 'Plated Geopede', 'text': 'First strike\nLandfall - Whenever a land enters the battlefield under your control, Plated Geopede gets +2/+2 until end of turn.', 'color': ['R'], 'mana_cost': '1R', 'power': 1, 'toughness': 1, 'subtype': ['Insect']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c270873(card.Card):
     "Searing Blaze"
     def __init__(self):
-        super(c270873, self).__init__(gameobject.Characteristics(**{'name': 'Searing Blaze', 'text': 'Searing Blaze deals 1 damage to target player and 1 damage to target creature that player controls.\nLandfall — If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player and 3 damage to that creature instead.', 'color': ['R'], 'mana_cost': 'RR'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c270873, self).__init__(gameobject.Characteristics(**{'name': 'Searing Blaze', 'text': 'Searing Blaze deals 1 damage to target player and 1 damage to target creature that player controls.\nLandfall - If you had a land enter the battlefield under your control this turn, Searing Blaze deals 3 damage to that player and 3 damage to that creature instead.', 'color': ['R'], 'mana_cost': 'RR'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c266299(card.Card):
     "Ajani Vengeant"
     def __init__(self):
-        super(c266299, self).__init__(gameobject.Characteristics(**{'name': 'Ajani Vengeant', 'text': "+1: Target permanent doesn't untap during its controller's next untap step.\n−2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.\n−7: Destroy all lands target player controls.", 'color': ['W', 'R'], 'mana_cost': '2RW', 'subtype': ['Ajani']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c266299, self).__init__(gameobject.Characteristics(**{'name': 'Ajani Vengeant', 'text': "+1: Target permanent doesn't untap during its controller's next untap step.\n-2: Ajani Vengeant deals 3 damage to target creature or player and you gain 3 life.\n-7: Destroy all lands target player controls.", 'color': ['W', 'R'], 'mana_cost': '2RW', 'subtype': ['Ajani']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c249405(card.Card):
     "Qasali Pridemage"
@@ -1062,7 +1062,7 @@ class c222711(card.Card):
 class c393851(card.Card):
     "Jace Beleren"
     def __init__(self):
-        super(c393851, self).__init__(gameobject.Characteristics(**{'name': 'Jace Beleren', 'text': '+2: Each player draws a card.\n−1: Target player draws a card.\n−10: Target player puts the top twenty cards of his or her library into his or her graveyard.', 'color': ['U'], 'mana_cost': '1UU', 'subtype': ['Jace']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c393851, self).__init__(gameobject.Characteristics(**{'name': 'Jace Beleren', 'text': '+2: Each player draws a card.\n-1: Target player draws a card.\n-10: Target player puts the top twenty cards of his or her library into his or her graveyard.', 'color': ['U'], 'mana_cost': '1UU', 'subtype': ['Jace']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c382209(card.Card):
     "Agent of Acquisitions"
@@ -1122,7 +1122,7 @@ class c416819(card.Card):
 class c416863(card.Card):
     "Deceiver Exarch"
     def __init__(self):
-        super(c416863, self).__init__(gameobject.Characteristics(**{'name': 'Deceiver Exarch', 'text': 'Flash (You may cast this spell any time you could cast an instant.)\nWhen Deceiver Exarch enters the battlefield, choose one —\n• Untap target permanent you control.\n• Tap target permanent an opponent controls.', 'color': ['U'], 'mana_cost': '2U', 'power': 1, 'toughness': 4, 'subtype': ['Cleric']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Flash]))
+        super(c416863, self).__init__(gameobject.Characteristics(**{'name': 'Deceiver Exarch', 'text': 'Flash (You may cast this spell any time you could cast an instant.)\nWhen Deceiver Exarch enters the battlefield, choose one -\n* Untap target permanent you control.\n* Tap target permanent an opponent controls.', 'color': ['U'], 'mana_cost': '2U', 'power': 1, 'toughness': 4, 'subtype': ['Cleric']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Flash]))
 
 class c416919(card.Card):
     "Guttersnipe"
@@ -1157,7 +1157,7 @@ class c430322(card.Card):
 class c430358(card.Card):
     "Rampaging Baloths"
     def __init__(self):
-        super(c430358, self).__init__(gameobject.Characteristics(**{'name': 'Rampaging Baloths', 'text': 'Trample\nLandfall — Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.', 'color': ['G'], 'mana_cost': '4GG', 'power': 6, 'toughness': 6, 'subtype': ['Beast']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Trample]))
+        super(c430358, self).__init__(gameobject.Characteristics(**{'name': 'Rampaging Baloths', 'text': 'Trample\nLandfall - Whenever a land enters the battlefield under your control, you may create a 4/4 green Beast creature token.', 'color': ['G'], 'mana_cost': '4GG', 'power': 6, 'toughness': 6, 'subtype': ['Beast']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Trample]))
 
 class c430359(card.Card):
     "Reclamation Sage"
@@ -1287,7 +1287,7 @@ class c389541(card.Card):
 class c389675(card.Card):
     "Skirsdag High Priest"
     def __init__(self):
-        super(c389675, self).__init__(gameobject.Characteristics(**{'name': 'Skirsdag High Priest', 'text': 'Morbid — {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate this ability only if a creature died this turn.', 'color': ['B'], 'mana_cost': '1B', 'power': 1, 'toughness': 2, 'subtype': ['Human', 'Cleric']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c389675, self).__init__(gameobject.Characteristics(**{'name': 'Skirsdag High Priest', 'text': 'Morbid - {T}, Tap two untapped creatures you control: Create a 5/5 black Demon creature token with flying. Activate this ability only if a creature died this turn.', 'color': ['B'], 'mana_cost': '1B', 'power': 1, 'toughness': 2, 'subtype': ['Human', 'Cleric']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c389537(card.Card):
     "Goblin Welder"
@@ -1307,7 +1307,7 @@ class c376439(card.Card):
 class c376546(card.Card):
     "Tempt with Vengeance"
     def __init__(self):
-        super(c376546, self).__init__(gameobject.Characteristics(**{'name': 'Tempt with Vengeance', 'text': 'Tempting offer — Create X 1/1 red Elemental creature tokens with haste. Each opponent may create X 1/1 red Elemental creature tokens with haste. For each player who does, create X 1/1 red Elemental creature tokens with haste.', 'color': ['R'], 'mana_cost': 'XR'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[]))
+        super(c376546, self).__init__(gameobject.Characteristics(**{'name': 'Tempt with Vengeance', 'text': 'Tempting offer - Create X 1/1 red Elemental creature tokens with haste. Each opponent may create X 1/1 red Elemental creature tokens with haste. For each player who does, create X 1/1 red Elemental creature tokens with haste.', 'color': ['R'], 'mana_cost': 'XR'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[]))
 
 class c430556(card.Card):
     "Odric, Master Tactician"
@@ -1332,12 +1332,12 @@ class c186309(card.Card):
 class c192230(card.Card):
     "Bloodghast"
     def __init__(self):
-        super(c192230, self).__init__(gameobject.Characteristics(**{'name': 'Bloodghast', 'text': "Bloodghast can't block.\nBloodghast has haste as long as an opponent has 10 or less life.\nLandfall — Whenever a land enters the battlefield under your control, you may return Bloodghast from your graveyard to the battlefield.", 'color': ['B'], 'mana_cost': 'BB', 'power': 2, 'toughness': 1, 'subtype': ['Vampire', 'Spirit']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c192230, self).__init__(gameobject.Characteristics(**{'name': 'Bloodghast', 'text': "Bloodghast can't block.\nBloodghast has haste as long as an opponent has 10 or less life.\nLandfall - Whenever a land enters the battlefield under your control, you may return Bloodghast from your graveyard to the battlefield.", 'color': ['B'], 'mana_cost': 'BB', 'power': 2, 'toughness': 1, 'subtype': ['Vampire', 'Spirit']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c185749(card.Card):
     "Lotus Cobra"
     def __init__(self):
-        super(c185749, self).__init__(gameobject.Characteristics(**{'name': 'Lotus Cobra', 'text': 'Landfall — Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool.', 'color': ['G'], 'mana_cost': '1G', 'power': 2, 'toughness': 1, 'subtype': ['Snake']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c185749, self).__init__(gameobject.Characteristics(**{'name': 'Lotus Cobra', 'text': 'Landfall - Whenever a land enters the battlefield under your control, you may add one mana of any color to your mana pool.', 'color': ['G'], 'mana_cost': '1G', 'power': 2, 'toughness': 1, 'subtype': ['Snake']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c198383(card.Card):
     "Stoneforge Mystic"
@@ -1407,7 +1407,7 @@ class c373624(card.Card):
 class c373500(card.Card):
     "Ashiok, Nightmare Weaver"
     def __init__(self):
-        super(c373500, self).__init__(gameobject.Characteristics(**{'name': 'Ashiok, Nightmare Weaver', 'text': "+2: Exile the top three cards of target opponent's library.\n−X: Put a creature card with converted mana cost X exiled with Ashiok, Nightmare Weaver onto the battlefield under your control. That creature is a Nightmare in addition to its other types.\n−10: Exile all cards from all opponents' hands and graveyards.", 'color': ['U', 'B'], 'mana_cost': '1UB', 'subtype': ['Ashiok']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c373500, self).__init__(gameobject.Characteristics(**{'name': 'Ashiok, Nightmare Weaver', 'text': "+2: Exile the top three cards of target opponent's library.\n-X: Put a creature card with converted mana cost X exiled with Ashiok, Nightmare Weaver onto the battlefield under your control. That creature is a Nightmare in addition to its other types.\n-10: Exile all cards from all opponents' hands and graveyards.", 'color': ['U', 'B'], 'mana_cost': '1UB', 'subtype': ['Ashiok']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c373635(card.Card):
     "Prophet of Kruphix"
@@ -1417,7 +1417,7 @@ class c373635(card.Card):
 class c373502(card.Card):
     "Xenagos, the Reveler"
     def __init__(self):
-        super(c373502, self).__init__(gameobject.Characteristics(**{'name': 'Xenagos, the Reveler', 'text': '+1: Add X mana in any combination of {R} and/or {G} to your mana pool, where X is the number of creatures you control.\n0: Create a 2/2 red and green Satyr creature token with haste.\n−6: Exile the top seven cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield.', 'color': ['R', 'G'], 'mana_cost': '2RG', 'subtype': ['Xenagos']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c373502, self).__init__(gameobject.Characteristics(**{'name': 'Xenagos, the Reveler', 'text': '+1: Add X mana in any combination of {R} and/or {G} to your mana pool, where X is the number of creatures you control.\n0: Create a 2/2 red and green Satyr creature token with haste.\n-6: Exile the top seven cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield.', 'color': ['R', 'G'], 'mana_cost': '2RG', 'subtype': ['Xenagos']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c207884(card.Card):
     "Grand Architect"
@@ -1467,7 +1467,7 @@ class c409997(card.Card):
 class c409998(card.Card):
     "Traverse the Ulvenwald"
     def __init__(self):
-        super(c409998, self).__init__(gameobject.Characteristics(**{'name': 'Traverse the Ulvenwald', 'text': 'Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nDelirium — If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle your library.', 'color': ['G'], 'mana_cost': 'G'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[]))
+        super(c409998, self).__init__(gameobject.Characteristics(**{'name': 'Traverse the Ulvenwald', 'text': 'Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nDelirium - If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle your library.', 'color': ['G'], 'mana_cost': 'G'}, supertype=[], types=[cardtype.CardType.SORCERY], abilities=[]))
 
 class c410000(card.Card):
     "Ulvenwald Mysteries"
@@ -1592,7 +1592,7 @@ class c41280(card.Card):
 class c407614(card.Card):
     "Chandra, Flamecaller"
     def __init__(self):
-        super(c407614, self).__init__(gameobject.Characteristics(**{'name': 'Chandra, Flamecaller', 'text': '+1: Create two 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.\n0: Discard all the cards in your hand, then draw that many cards plus one.\n−X: Chandra, Flamecaller deals X damage to each creature.', 'color': ['R'], 'mana_cost': '4RR', 'subtype': ['Chandra']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c407614, self).__init__(gameobject.Characteristics(**{'name': 'Chandra, Flamecaller', 'text': '+1: Create two 3/1 red Elemental creature tokens with haste. Exile them at the beginning of the next end step.\n0: Discard all the cards in your hand, then draw that many cards plus one.\n-X: Chandra, Flamecaller deals X damage to each creature.', 'color': ['R'], 'mana_cost': '4RR', 'subtype': ['Chandra']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c407654(card.Card):
     "Sylvan Advocate"
@@ -1717,7 +1717,7 @@ class c386518(card.Card):
 class c386494(card.Card):
     "Bloodsoaked Champion"
     def __init__(self):
-        super(c386494, self).__init__(gameobject.Characteristics(**{'name': 'Bloodsoaked Champion', 'text': "Bloodsoaked Champion can't block.\nRaid — {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate this ability only if you attacked with a creature this turn.", 'color': ['B'], 'mana_cost': 'B', 'power': 2, 'toughness': 1, 'subtype': ['Human', 'Warrior']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
+        super(c386494, self).__init__(gameobject.Characteristics(**{'name': 'Bloodsoaked Champion', 'text': "Bloodsoaked Champion can't block.\nRaid - {1}{B}: Return Bloodsoaked Champion from your graveyard to the battlefield. Activate this ability only if you attacked with a creature this turn.", 'color': ['B'], 'mana_cost': 'B', 'power': 2, 'toughness': 1, 'subtype': ['Human', 'Warrior']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[]))
 
 class c386548(card.Card):
     "Grim Haruspex"
@@ -1767,7 +1767,7 @@ class c417632(card.Card):
 class c417752(card.Card):
     "Dovin Baan"
     def __init__(self):
-        super(c417752, self).__init__(gameobject.Characteristics(**{'name': 'Dovin Baan', 'text': '+1: Until your next turn, up to one target creature gets -3/-0 and its activated abilities can\'t be activated.\n−1: You gain 2 life and draw a card.\n−7: You get an emblem with "Your opponents can\'t untap more than two permanents during their untap steps."', 'color': ['W', 'U'], 'mana_cost': '2WU', 'subtype': ['Dovin']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c417752, self).__init__(gameobject.Characteristics(**{'name': 'Dovin Baan', 'text': '+1: Until your next turn, up to one target creature gets -3/-0 and its activated abilities can\'t be activated.\n-1: You gain 2 life and draw a card.\n-7: You get an emblem with "Your opponents can\'t untap more than two permanents during their untap steps."', 'color': ['W', 'U'], 'mana_cost': '2WU', 'subtype': ['Dovin']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c417757(card.Card):
     "Rashmi, Eternities Crafter"
@@ -1777,7 +1777,7 @@ class c417757(card.Card):
 class c417759(card.Card):
     "Saheeli Rai"
     def __init__(self):
-        super(c417759, self).__init__(gameobject.Characteristics(**{'name': 'Saheeli Rai', 'text': "+1: Scry 1. Saheeli Rai deals 1 damage to each opponent.\n−2: Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. That token gains haste. Exile it at the beginning of the next end step.\n−7: Search your library for up to three artifact cards with different names, put them onto the battlefield, then shuffle your library.", 'color': ['U', 'R'], 'mana_cost': '1UR', 'subtype': ['Saheeli']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c417759, self).__init__(gameobject.Characteristics(**{'name': 'Saheeli Rai', 'text': "+1: Scry 1. Saheeli Rai deals 1 damage to each opponent.\n-2: Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. That token gains haste. Exile it at the beginning of the next end step.\n-7: Search your library for up to three artifact cards with different names, put them onto the battlefield, then shuffle your library.", 'color': ['U', 'R'], 'mana_cost': '1UR', 'subtype': ['Saheeli']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c417788(card.Card):
     "Foundry Inspector"
@@ -1812,7 +1812,7 @@ class c380410(card.Card):
 class c380495(card.Card):
     "Setessan Tactics"
     def __init__(self):
-        super(c380495, self).__init__(gameobject.Characteristics(**{'name': 'Setessan Tactics', 'text': 'Strive — Setessan Tactics costs {G} more to cast for each target beyond the first.\nUntil end of turn, any number of target creatures each get +1/+1 and gain "{T}: This creature fights another target creature."', 'color': ['G'], 'mana_cost': '1G'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c380495, self).__init__(gameobject.Characteristics(**{'name': 'Setessan Tactics', 'text': 'Strive - Setessan Tactics costs {G} more to cast for each target beyond the first.\nUntil end of turn, any number of target creatures each get +1/+1 and gain "{T}: This creature fights another target creature."', 'color': ['G'], 'mana_cost': '1G'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c244678(card.Card):
     "Heartless Summoning"
@@ -1847,7 +1847,7 @@ class c430729(card.Card):
 class c430738(card.Card):
     "Supreme Will"
     def __init__(self):
-        super(c430738, self).__init__(gameobject.Characteristics(**{'name': 'Supreme Will', 'text': 'Choose one —\n• Counter target spell unless its controller pays {3}.\n• Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.', 'color': ['U'], 'mana_cost': '2U'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c430738, self).__init__(gameobject.Characteristics(**{'name': 'Supreme Will', 'text': 'Choose one -\n* Counter target spell unless its controller pays {3}.\n* Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.', 'color': ['U'], 'mana_cost': '2U'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c430779(card.Card):
     "Earthshaker Khenra"
@@ -1872,7 +1872,7 @@ class c366470(card.Card):
 class c366473(card.Card):
     "Dimir Charm"
     def __init__(self):
-        super(c366473, self).__init__(gameobject.Characteristics(**{'name': 'Dimir Charm', 'text': "Choose one —\n• Counter target sorcery spell.\n• Destroy target creature with power 2 or less.\n• Look at the top three cards of target player's library. Put one back and the rest into that player's graveyard.", 'color': ['U', 'B'], 'mana_cost': 'UB'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c366473, self).__init__(gameobject.Characteristics(**{'name': 'Dimir Charm', 'text': "Choose one -\n* Counter target sorcery spell.\n* Destroy target creature with power 2 or less.\n* Look at the top three cards of target player's library. Put one back and the rest into that player's graveyard.", 'color': ['U', 'B'], 'mana_cost': 'UB'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c126215(card.Card):
     "Sword of the Meek"
@@ -1907,7 +1907,7 @@ class c414292(card.Card):
 class c414302(card.Card):
     "Blessed Alliance"
     def __init__(self):
-        super(c414302, self).__init__(gameobject.Characteristics(**{'name': 'Blessed Alliance', 'text': 'Escalate {2} (Pay this cost for each mode chosen beyond the first.)\nChoose one or more —\n• Target player gains 4 life.\n• Untap up to two target creatures.\n• Target opponent sacrifices an attacking creature.', 'color': ['W'], 'mana_cost': '1W'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
+        super(c414302, self).__init__(gameobject.Characteristics(**{'name': 'Blessed Alliance', 'text': 'Escalate {2} (Pay this cost for each mode chosen beyond the first.)\nChoose one or more -\n* Target player gains 4 life.\n* Untap up to two target creatures.\n* Target opponent sacrifices an attacking creature.', 'color': ['W'], 'mana_cost': '1W'}, supertype=[], types=[cardtype.CardType.INSTANT], abilities=[]))
 
 class c414332(card.Card):
     "Selfless Spirit"
@@ -1927,7 +1927,7 @@ class c414375(card.Card):
 class c414463(card.Card):
     "Ishkanah, Grafwidow"
     def __init__(self):
-        super(c414463, self).__init__(gameobject.Characteristics(**{'name': 'Ishkanah, Grafwidow', 'text': 'Reach\nDelirium — When Ishkanah, Grafwidow enters the battlefield, if there are four or more card types among cards in your graveyard, create three 1/2 green Spider creature tokens with reach.\n{6}{B}: Target opponent loses 1 life for each Spider you control.', 'color': ['G', 'B'], 'mana_cost': '4G', 'power': 3, 'toughness': 5, 'subtype': ['Spider']}, supertype=[cardtype.SuperType.LEGENDARY], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Reach]))
+        super(c414463, self).__init__(gameobject.Characteristics(**{'name': 'Ishkanah, Grafwidow', 'text': 'Reach\nDelirium - When Ishkanah, Grafwidow enters the battlefield, if there are four or more card types among cards in your graveyard, create three 1/2 green Spider creature tokens with reach.\n{6}{B}: Target opponent loses 1 life for each Spider you control.', 'color': ['G', 'B'], 'mana_cost': '4G', 'power': 3, 'toughness': 5, 'subtype': ['Spider']}, supertype=[cardtype.SuperType.LEGENDARY], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Reach]))
 
 class c414467(card.Card):
     "Permeating Mass"
@@ -1937,7 +1937,7 @@ class c414467(card.Card):
 class c414489(card.Card):
     "Grim Flayer"
     def __init__(self):
-        super(c414489, self).__init__(gameobject.Characteristics(**{'name': 'Grim Flayer', 'text': 'Trample\nWhenever Grim Flayer deals combat damage to a player, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.\nDelirium — Grim Flayer gets +2/+2 as long as there are four or more card types among cards in your graveyard.', 'color': ['B', 'G'], 'mana_cost': 'BG', 'power': 2, 'toughness': 2, 'subtype': ['Human', 'Warrior']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Trample]))
+        super(c414489, self).__init__(gameobject.Characteristics(**{'name': 'Grim Flayer', 'text': 'Trample\nWhenever Grim Flayer deals combat damage to a player, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.\nDelirium - Grim Flayer gets +2/+2 as long as there are four or more card types among cards in your graveyard.', 'color': ['B', 'G'], 'mana_cost': 'BG', 'power': 2, 'toughness': 2, 'subtype': ['Human', 'Warrior']}, supertype=[], types=[cardtype.CardType.CREATURE], abilities=[static_abilities.StaticAbilities.Trample]))
 
 class c394490(card.Card):
     "Anafenza, Kin-Tree Spirit"
@@ -2012,7 +2012,7 @@ class c401912(card.Card):
 class c401931(card.Card):
     "Kiora, Master of the Depths"
     def __init__(self):
-        super(c401931, self).__init__(gameobject.Characteristics(**{'name': 'Kiora, Master of the Depths', 'text': '+1: Untap up to one target creature and up to one target land.\n−2: Reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.\n−8: You get an emblem with "Whenever a creature enters the battlefield under your control, you may have it fight target creature." Then create three 8/8 blue Octopus creature tokens.', 'color': ['U', 'G'], 'mana_cost': '2GU', 'subtype': ['Kiora']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c401931, self).__init__(gameobject.Characteristics(**{'name': 'Kiora, Master of the Depths', 'text': '+1: Untap up to one target creature and up to one target land.\n-2: Reveal the top four cards of your library. You may put a creature card and/or a land card from among them into your hand. Put the rest into your graveyard.\n-8: You get an emblem with "Whenever a creature enters the battlefield under your control, you may have it fight target creature." Then create three 8/8 blue Octopus creature tokens.', 'color': ['U', 'G'], 'mana_cost': '2GU', 'subtype': ['Kiora']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c401943(card.Card):
     "Lumbering Falls"
@@ -2047,7 +2047,7 @@ class c426851(card.Card):
 class c426906(card.Card):
     "Nissa, Steward of Elements"
     def __init__(self):
-        super(c426906, self).__init__(gameobject.Characteristics(**{'name': 'Nissa, Steward of Elements', 'text': "+2: Scry 2.\n0: Look at the top card of your library. If it's a land card or a creature card with converted mana cost less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield.\n−6: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands.", 'color': ['U', 'G'], 'mana_cost': 'XGU', 'subtype': ['Nissa']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
+        super(c426906, self).__init__(gameobject.Characteristics(**{'name': 'Nissa, Steward of Elements', 'text': "+2: Scry 2.\n0: Look at the top card of your library. If it's a land card or a creature card with converted mana cost less than or equal to the number of loyalty counters on Nissa, Steward of Elements, you may put that card onto the battlefield.\n-6: Untap up to two target lands you control. They become 5/5 Elemental creatures with flying and haste until end of turn. They're still lands.", 'color': ['U', 'G'], 'mana_cost': 'XGU', 'subtype': ['Nissa']}, supertype=[], types=[cardtype.CardType.PLANESWALKER], abilities=[]))
 
 class c426907(card.Card):
     "Samut, Voice of Dissent"
